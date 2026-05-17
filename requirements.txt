@@ -1,0 +1,32 @@
+# ============================================================================
+# Universal Document Chat - Complete Requirements
+# Includes: Base RAG + Multi-modal (Image) Support
+# ============================================================================
+
+# Core ML/AI Libraries
+torch>=2.0.0
+transformers>=4.30.0
+sentence-transformers>=2.2.2
+accelerate>=0.26.0
+
+# Vector Store & Embeddings
+numpy>=1.24.0
+faiss-cpu>=1.7.4
+
+# Document Processing
+pypdf>=3.0.0
+python-docx>=0.8.11
+markdown>=3.4.0
+
+# Multi-modal Support (Images)
+pymupdf>=1.23.0
+Pillow>=10.0.0
+
+# Web Application
+streamlit>=1.28.0
+
+# Data Processing
+pandas>=2.0.0
+
+# Utilities
+tqdm>=4.65.0
